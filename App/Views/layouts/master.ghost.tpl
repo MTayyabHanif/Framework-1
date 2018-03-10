@@ -10,16 +10,8 @@
 
     <title>{{ trans('master.title') }}</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="{{ asset('assets/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-
-
-    <!-- Custom Fonts -->
-    <link href="{{ asset('assets/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="{{ asset('assets/simple-line-icons/css/simple-line-icons.css') }}" rel="stylesheet">
-
-    {{ css('stylish-portfolio.min') }}
+    <!-- CSS -->
+    <link href="{{ asset('css/style.min.css') }}" rel="stylesheet">
 
   </head>
 
@@ -58,16 +50,9 @@
       <i class="fa fa-angle-up"></i>
     </a>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="{{ asset('assets/jquery/jquery.min.js') }}"></script>
-    <script src="{{ asset('assets/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="{{ asset('assets/jquery-easing/jquery.easing.min.js') }}"></script>
-
-    <!-- Custom scripts for this template -->
-    <!-- <script src="{{ asset('js/stylish-portfolio.min.js') }}"></script> -->
-    {{ js('stylish-portfolio.min') }}
+    <!-- JS SCRIPTS -->
+    <script src="{{ asset('js/scripts.min.js') }}"></script>
+    <script type='text/javascript' src='http://localhost:35729/livereload.js?snipver=1&#038;ver=4.9.4'></script>
 
   </body>
 

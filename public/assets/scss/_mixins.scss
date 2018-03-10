@@ -1,13 +1,5 @@
-// Mixins
-// Background Cover Mixin
-@mixin background-cover {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+// mixins/
 
-// Font Mixins
-@mixin body-font {
-  font-family: 'Source Sans Pro';
-}
+@import "mixins/general";
+@import "mixins/button";
+@import "mixins/label";

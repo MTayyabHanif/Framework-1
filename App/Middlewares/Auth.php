@@ -24,7 +24,7 @@ use Silver\Http\Redirect;
 
 class Auth implements MiddlewareInterface
 {
-    // put the name to make it public
+    // put the name to make it publi
     private $unguard = [
         'unguard',
         'guest',
@@ -43,7 +43,7 @@ class Auth implements MiddlewareInterface
             return \Silver\Http\View::error('404');
         }
 
-        return $next();
+            return $next(); // next allow you to get into controller
     }
 
 }
